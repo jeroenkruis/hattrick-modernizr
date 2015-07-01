@@ -6,6 +6,7 @@
 	"author": "Jeroen Kruis <kruisjeroen@gmail.com>",
 	"content_scripts": [{
 		"js": ["build/js/vendor.min.js", "build/js/script.min.js"],
+		"css": ["build/css/style.min.css"],
 		"matches": ["http://*.hattrick.org/*", "https://*.hattrick.org/*"]
 	}]
 }
