@@ -1,0 +1,11 @@
+{
+	"manifest_version": 2,
+	"name": "Hattrick Modernizr",
+	"version": "0.1.0",
+	"description": "Modernizing the user experience of Hattrick!",
+	"author": "Jeroen Kruis <kruisjeroen@gmail.com>",
+	"content_scripts": [{
+		"js": ["build/js/vendor.min.js", "build/js/script.min.js"],
+		"matches": ["http://*.hattrick.org/*", "https://*.hattrick.org/*"]
+	}]
+}
