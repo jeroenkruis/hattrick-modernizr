@@ -1,5 +1,6 @@
 {
   "name": "hattrick-transfers",
+  "description": "Modernizing the user experience of Hattrick!",
   "version": "0.1.0",
   "authors": [
     "Jeroen Kruis <kruisjeroen@gmail.com>"
@@ -8,9 +9,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ],
   "dependencies": {
     "react": "~0.13.3"
